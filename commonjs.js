@@ -15,6 +15,6 @@ module.exports = function() {
 //main.js
 var Foo = require('./foo');
 var foo = new Foo();
-foo.req('http://www.haiziwang.com');
+foo.req('');
 
 console.log(foo.re);
